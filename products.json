@@ -418,28 +418,8 @@
     "image":"images/aid wounddressing.png"
     
   },
-  {
-    "description": "OCTACARE PLASTER",
-    "itemName": "OCTACARE PLASTER 2 (5 X 5 CM)",
-    "itemGroup": "Octamed",
-    "price": 24000,
-    "discountedPrice": 23520,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "OCTASILK-2.5",
-    "image":"images/OCTACARE PLASTER.png"
-  },
-  {
-    "description": "OCTACARE PLASTER",
-    "itemName": "OCTACARE PLASTER SIZE 1 ( 5 X 2.5CM)",
-    "itemGroup": "Octamed",
-    "price": 24000,
-    "discountedPrice": 23520,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "OCTASILK-1.5",
-    "image":"images/OCTACARE PLASTER.png"
-  },
+  
+  
   {
     "description": "OCTACARE PLASTER",
     "itemName": "OCTACARE PLASTER SIZE 1 (9.14 X 2.5CM)",
@@ -462,17 +442,7 @@
     "id": "OCTASILK-2.9",
     "image":"images/OCTACARE PLASTER.png"
   },
-  {
-    "description": "OCTACARE PLASTER",
-    "itemName": "OCTACARE PLASTER SIZE 3 (7.5 X 5CM)",
-    "itemGroup": "Octamed",
-    "price": 24000,
-    "discountedPrice": 23520,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "OCTASILK-3.7",
-    "image":"images/OCTACARE PLASTER.png"
-  },
+  
   {
     "description": "OCTACARE PLASTER",
     "itemName": "OCTACARE PLASTER SIZE 3 (9.14 X 7.5CM)",
@@ -539,17 +509,7 @@
     "id": "WWD-920",
     "image":"images/OCTACARE WOUNDDRESSING.png"
   },
-  {
-    "description": "OCTACARE WOUNDDRESSING",
-    "itemName": "OCTACARE WOUNDDRESSING 9X20 CM(NON WOVEN)",
-    "itemGroup": "Octamed",
-    "price": 15000,
-    "discountedPrice": 14700,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "NWD-920",
-    "image":"images/OCTACARE WOUNDDRESSING.png"
-  },
+ 
   {
     "description": "OCTACARE WOUNDDRESSING",
     "itemName": "OCTACARE WOUNDDRESSING 9X25 CM",
@@ -561,17 +521,7 @@
     "id": "WWD-925",
     "image":"images/OCTACARE WOUNDDRESSING.png"
   },
-  {
-    "description": "OCTACARE WOUNDDRESSING",
-    "itemName": "OCTACARE WOUNDDRESSING 9X25 CM(NON WOVEN)",
-    "itemGroup": "Octamed",
-    "price": 15000,
-    "discountedPrice": 14700,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "NWD-925",
-    "image":"images/OCTACARE WOUNDDRESSING.png"
-  },
+ 
   {
     "description": "OCTACARE WOUNDDRESSING",
     "itemName": "OCTACARE WOUNDDRESSING 9X30 CM",
@@ -583,17 +533,7 @@
     "id": "WWD-930",
     "image":"images/OCTACARE WOUNDDRESSING.png"
   },
-  {
-    "description": "OCTACARE WOUNDDRESSING",
-    "itemName": "OCTACARE WOUNDDRESSING 9X30 CM(NON WOVEN)",
-    "itemGroup": "Octamed",
-    "price": 17000,
-    "discountedPrice": 16660,
-    "defaultUnit": "Pack",
-    "category": "Plasters",
-    "id": "NWD-930",
-    "image":"images/OCTACARE WOUNDDRESSING.png"
-  },
+
   {
     "description": "CERVIX SET",
     "itemName": "CERVIX SET 50 + 65MM",
@@ -784,7 +724,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 0 CUTTING EDGE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -795,7 +735,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -806,7 +746,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 1 CUTTING EDGE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -817,7 +757,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 1 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -828,7 +768,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 2 CUTTING EDGE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -839,7 +779,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 2 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -850,7 +790,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 2/0 CUTTING EDGE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -861,7 +801,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 2/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -872,7 +812,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 3/0 CUTTING EDGE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -883,7 +823,7 @@
   {
     "description": "NYLON",
     "itemName": "P2 NYLON 3/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Nylon-Xtendover",
     "price": 7000,
     "discountedPrice": 6860,
     "defaultUnit": "Pack",
@@ -894,7 +834,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -905,7 +845,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 1 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -916,7 +856,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 2 CUTTING NEEDLE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -927,7 +867,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 2 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -938,7 +878,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 2/0 CUTTING NEEDLE",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -949,7 +889,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 2/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -960,7 +900,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 3/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -971,7 +911,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 4/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",
@@ -982,7 +922,7 @@
   {
     "description": "VICRYL",
     "itemName": "P2 VICRYL 6/0 ROUND BODY",
-    "itemGroup": "Premium 2",
+    "itemGroup": "Vicryl-Xtendover",
     "price": 14000,
     "discountedPrice": 13720,
     "defaultUnit": "Pack",

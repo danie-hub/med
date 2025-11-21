@@ -67,9 +67,26 @@
     #home p {
       font-size: 1.1rem;
       max-width: 600px;
-      margin: 0 auto;
+      margin: 0 auto 25px;
     }
 
+    .whatsapp-btn {
+      background-color: #ff7f27;
+      color: white;
+      padding: 15px 35px;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #e66f1f;
+      transform: scale(1.05);
+    }
 
     /* ---------------- PRODUCT SECTION ---------------- */
     #products {
@@ -117,6 +134,16 @@
       transform: scale(1.02);
     }
 
+    .product-img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #f9f9f9;
+      padding: 10px;
+    }
+
     .product-name {
       font-size: 17px;
       font-weight: 700;
@@ -147,17 +174,6 @@
       color: #ff4d4d;
       font-weight: 600;
     }
-    .product-img {
-      width: 100%;
-      height: 180px;
-      object-fit: contain;
-      border-radius: 8px;
-      margin-bottom: 12px;
-      background: #f9f9f9;
-      padding: 10px;
-    }
-
-
 
     /* ---------------- CONTACT ---------------- */
     #contact {
@@ -173,22 +189,6 @@
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
-    }
-
-    .whatsapp-btn {
-      background-color: #ff7f27;
-      color: white;
-      padding: 15px 35px;
-      border-radius: 50px;
-      font-size: 18px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .whatsapp-btn:hover {
-      background-color: #e66f1f;
-      transform: scale(1.05);
     }
 
     /* ---------------- FOOTER ---------------- */
@@ -220,8 +220,13 @@
 
   <!-- ---------------- HERO ---------------- -->
   <div id="home">
-    <h1>Enjoy A Whooping 22 % Discount</h1>
+    <h1>Enjoy A Whooping 2% Discount</h1>
     <p>On all medical items using your unique discount code</p>
+
+    <a href="https://wa.me/2349151212178?text=Hello%20Ginos%20Group,%20I'm%20interested%20in%20your%20medical%20products."
+       class="whatsapp-btn">
+      Order Now
+    </a>
   </div>
 
   <!-- ---------------- PRODUCT CATALOG ---------------- -->
@@ -237,7 +242,7 @@
       We’re happy to answer questions and discuss partnership opportunities.
     </p>
 
-    <a href="https://wa.me/2349181212178?text=Hello%20Ginos%20Group,%20I'm%20interested%20in%20your%20medical%20products."
+    <a href="https://wa.me/2349151212178?text=Hello%20Ginos%20Group,%20I'm%20interested%20in%20your%20medical%20products."
        class="whatsapp-btn">
       Order Now
     </a>
@@ -289,14 +294,14 @@
 
               <div class="product-name">${item.itemName}</div>
               <div class="product-desc">${item.description}</div>
-              <div class="product-meta"><b>Group:</b> ${item.itemGroup}</div>
+              <div class="product-meta"><b>Brand:</b> ${item.itemGroup}</div>
               <div class="product-meta"><b>Unit:</b> ${item.defaultUnit}</div>
 
               <div class="price">Price: ${formatCurrency(item.price)}</div>
               <div class="discounted">
-              ${item.discountedPrice ? "After Discount: " + formatCurrency(item.discountedPrice) : ""}
+                ${item.discountedPrice ? "After Discount: " + formatCurrency(item.discountedPrice) : ""}
               </div>
-              `;
+            `;
             grid.appendChild(card);
           });
 
